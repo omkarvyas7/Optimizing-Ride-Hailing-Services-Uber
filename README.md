@@ -1,1 +1,6 @@
 # Uber
+In this project, the First-Dispatch Routing Protocol with a maximum dispatch radius (MDR) was implemented to optimize the allocation of resources and ensure efficient driver utilization. Initially, the protocol aimed to find a single driver with the minimum estimated time of arrival (ETA) to a destination. However, the maximum dispatch radius constraint was also considered, and the protocol was modified to find the best driver who could complete the task within the specified maximum dispatch radius.
+
+Another protocol implemented in the project was the Batching Dispatch Protocol, which aimed to minimize the aggregated en route time model and maximize the profit model within a given maximum dispatch radius. This protocol optimized the delivery process by grouping multiple tasks into a single batch, reducing the overall travel time and maximizing profits while considering the maximum dispatch radius constraint.
+
+Finally, an optimal scheduling model for Uber push notifications was developed to minimize the notification delay time and increase the response rate. The model considered several factors, such as the user's location, time of day, and availability of drivers, to determine the optimal time to send notifications. This approach improved the efficiency of the notification system, leading to higher customer satisfaction and driver utilization.
